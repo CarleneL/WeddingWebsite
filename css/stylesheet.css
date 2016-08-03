@@ -985,7 +985,8 @@ a#dirs{
 		}
 
 		#accomodations2 {
-			background: url("../images/glenFoerd.jpg") 50% 0 no-repeat fixed;
+			/*background: url("../images/glenFoerd.jpg") 50% 0 no-repeat fixed;*/
+			background: url("../images/glenFoerd.jpg") 50% 0 no-repeat;
 			height: 768px;
 			background-position: 50% 0px;
 			width: 1200px;
