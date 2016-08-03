@@ -169,6 +169,8 @@
 			} );
 		} );
 
+
+
 		window.addEventListener( 'resize', function() { self._resizeHandler(); } );
 	}
 
