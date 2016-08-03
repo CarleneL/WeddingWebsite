@@ -971,7 +971,8 @@ a#dirs{
 
 		/* The big day, festivities and accomodations */
 		#theBigDay{
-			background: url("../images/gazebo_sunset.jpg") 50% 0 no-repeat fixed;
+			/*background: url("../images/gazebo_sunset.jpg") 50% 0 no-repeat fixed;*/
+			background: url("../images/gazebo_sunset.jpg") 50% 0 no-repeat;
 			height: 768px;
 			background-position: 50% 0px;
 			width: 1200px;
