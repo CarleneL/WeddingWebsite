@@ -587,7 +587,7 @@ a#dirs{
 }*/
 
 #accomodations1, #accomodations3, #gifts{
-	height: 600;
+	height: 600px;
 	width: 1200px;
 }
 
@@ -974,7 +974,8 @@ a#dirs{
 			height: 768px;
 			background-position: 50% 0px;
 			width: 1200px;
-			background-size: contain;
+			/*background-size: contain;*/
+			background-size: cover;
 			/*background-position: 50% 0px;*/
 		}
 
@@ -998,8 +999,8 @@ a#dirs{
 
 		/* Registry */
 
-		.gift_container {
-			height: 300px;
+		#gifts {
+			height: 450px;
 		}
 
 		#regText{
@@ -1015,7 +1016,7 @@ a#dirs{
 		  	height: 768px;
 		  	background-position: 50% 0px;
 		  	width: 1200px;
-			background-size: contain;
+			/*background-size: contain;*/
 		  	/*width: 100%;*/
 		}
 
@@ -1028,7 +1029,10 @@ a#dirs{
 		}
     }
 
-    @media only screen and (min-width : 1024px){
+    @media only screen and (max-width : 1024px){
+    	#banner, #theStory, #accomodations2, #gallery {
+    		width:1200px;
+    	}
 
     	/* Bridal Party */
     	#bridalParty{
