@@ -958,9 +958,10 @@ a#dirs{
 
 		/* We'll say id */
 		#clock{
-			background: url("../images/A&M_070.jpg") 50% 0 no-repeat fixed;
+			/*background: url("../images/A&M_070.jpg") 50% 0 no-repeat fixed;*/
+			background: url("../images/A&M_070.jpg") 50% 0 no-repeat;
 		    height: 600px;
-		    /*background-position: 50% 0px;*/
+		    background-position: 50% 0px;
 		}
 
 		/*Bridal Party */
