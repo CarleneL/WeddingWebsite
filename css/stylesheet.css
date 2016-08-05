@@ -57,7 +57,8 @@ h2 {
 }
 /**/
 #banner { 
-	background-image: url("../images/RingCloseUp.jpg");
+	/*background-image: url("../images/RingCloseUp.jpg");*/
+	background-image: url("../images/RingCloseUp_TomFilter.jpg");
 	/*background: url("../images/RingCloseUp.jpg") 50% 0 no-repeat fixed;*/
 	background-repeat: no-repeat;
 	 background-position: center center;
