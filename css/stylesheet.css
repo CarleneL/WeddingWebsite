@@ -843,6 +843,11 @@ a#dirs{
 	font-family: 'Dynalight';
 }
 
+/*.gift_container .button {
+	background: black;
+	padding: 10px;
+}*/
+
 #regText{
 	width: 48em; 
 	/*position: fixed; */
