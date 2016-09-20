@@ -843,10 +843,18 @@ a#dirs{
 	font-family: 'Dynalight';
 }
 
-/*.gift_container .button {
-	background: black;
+.gift_container .button {
+	background: #FFD5D5;
 	padding: 10px;
-}*/
+}
+
+.gift_container .reg-link{
+	text-decoration: none;
+}
+
+.gift_container .reg-link::hover{
+	text-decoration: none;
+}
 
 #regText{
 	width: 48em; 
