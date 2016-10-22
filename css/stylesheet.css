@@ -876,6 +876,31 @@ a#dirs{
 	font-size: 1.3em;
 	line-height: 34px;
 }	
+
+/*reg buttons */
+.reg-button {
+	position: relative;
+    /*left: 76px;*/
+    /*background-color: #d3d3d3;*/
+    background-color:transparent;
+    width: 220px;
+    font-family: "raleway";
+    border: 0px;
+    color: #000;
+    font-size: 1.5em;
+    height:60px;
+    border-top:1px solid #ffd5d5;
+    border-bottom:1px solid #ffd5d5;
+    margin-top: 20px;
+    margin-right:20px;
+}
+
+/* removes the border from the button on click */
+.reg-button:focus {
+	outline:0;
+}
+
+
 /*add to story section */
 
 
