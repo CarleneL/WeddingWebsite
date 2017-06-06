@@ -599,6 +599,7 @@ a#dirs{
 #accomodations1, #accomodations3, #gifts{
 	padding: 60px 0 0 0;
 }
+
 #accomodations2 {
 	background-image: url("../images/glenFoerd.jpg");
 	background-repeat: no-repeat;
@@ -619,11 +620,27 @@ a#dirs{
   -o-background-size: cover;
 }
 
-#accomodations2{
-	/*width: 1200px;*/
+#accomodations4 {
+	/*background-image: url("../images/glenFoerd.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 600px;
+	overflow: hidden;
+	background-size: cover;
+	min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+	color: #fff; 
+	padding: 90px 0 0 0;
+	/*height: 100%; */
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
-.stayDetails, .festivityDetails, .gift_container{
+.stayDetails, .festivityDetails, .gift_container, .timings{
 	margin: 0 auto;
     min-width: 980px;
     overflow: auto;
@@ -650,6 +667,9 @@ a#dirs{
 	background: rgba(9,9,9,.3);
 }
 
+.box2 {
+	background-color: #fff;
+}
 
 
 /*#leftText, #rightText{
@@ -672,12 +692,12 @@ a#dirs{
 	font-size: 2em;
 }	*/
 
-#deets {
+/*#deets {
 	margin: 0 auto;
     min-width: 980px;
     overflow: auto;
     width: 980px;
-}
+}*/
 
 .weekendDetails{
 	padding-left: 10px;
@@ -699,9 +719,16 @@ a#dirs{
 	text-transform: uppercase;
 }
 
-.suggestions {
+.timings {
+	font-size: 16px;
+	color: black;
+}
+
+
+.suggestions, .timings {
 	overflow: hidden;
 }
+
 
 .suggestions div{
 	float: left;
@@ -709,7 +736,7 @@ a#dirs{
 	margin-top: 40px;
 }
 
-.suggestions div ul{
+.suggestions div ul, .timings div ul{
 	padding:0;
 	margin: 0;
 	list-style: none;
@@ -1039,6 +1066,13 @@ a#dirs{
 			width: 1200px;
 		}
 
+		#accomodations4 {
+			/*background: url("../images/glenFoerd.jpg") 50% 0 no-repeat fixed;*/
+			/*background: url("../images/glenFoerd.jpg") 50% 0 no-repeat;*/
+			height: 768px;
+			background-position: 50% 0px;
+			width: 1200px;
+		}
 
 
 		/* Engagement shoot */
@@ -1079,7 +1113,7 @@ a#dirs{
     }
 
     @media only screen and (max-width : 1024px){
-    	#banner, #theStory, #accomodations2, #gallery {
+    	#banner, #theStory, #accomodations2, #accomodations4, #gallery {
     		width:1200px;
     	}
 
