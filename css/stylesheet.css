@@ -732,7 +732,8 @@ a#dirs{
 
 .suggestions div{
 	float: left;
-	width: 300px;
+	/*width: 300px;*/
+	width: 240px;
 	margin-top: 40px;
 }
 
